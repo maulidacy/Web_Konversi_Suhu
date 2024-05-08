@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  :root {
+    --bg-color: #242830;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #00abf0;
+  }
+  
+  html {
+    font-size: 70%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 3px solid var(--main-color);
+  }
+  
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    margin: 20px 15px;
+    height: min-content;
+    margin-top: 0;
+  }
+  
+  .note {
+    font-size: 17px;
+    color: var(--text-color);
+    cursor: default;
+    text-align: center;
+    margin: 20px 15px;
+  }
+  
+  .note span {
+    color: var(--main-color);
+  }
+  
+  .input-section {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 8px 3px;
+    padding: 8px 16px;
+    justify-content: center;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+  }
+  
+  .navigation {
+    display: flex;
+  }
+  
+  .navigation>a {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(255, 255, 255)
+  }
+  
+  .navigation :active {
+    color: var(--main-color);
+  }
+  
+  .navigation :hover {
+    color: var(--main-color);
+  }
+  
+  .button {
+    justify-content: center;
+    background-color: var(--bg-color);
+    text-align: center;
+    margin: 8px 0px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+  }
+  
+  .my-buttonn {
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    text-align: center;
+    margin: 8px 4px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-top: 1px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+  }
+  
+  .my-buttonn:hover {
+    color: var(--bg-color);
+    background-color: var(--main-color);
+  }
+  
+  .my-buttonn ::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--main-color);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  
+  .my-buttonn :hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .output-section {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 8px 3px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    justify-content: center;
+    color: var(--main-color);
+  }
+  
+  .input-field {
+    justify-content: space-between;
+    background-color: var(--second-bg-color);
+    text-align: center;
+    margin: 8px 3px;
+    padding: 8px 16px;
+    font-size: 17px;
+    width: 50%;
+    color: var(--text-color);
+  }
+  
+  .input-field:focus {
+    border: solid var(--bg-color);
+  }
+  
+  .rumus-section {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 8px 3px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    justify-content: center;
+    color: var(--main-color);
+  }
+  
+  .rumus-konversi {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 8px 3px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    justify-content: center;
+    color: var(--main-color);
+  }
+  
+  .rumus {
+    background-color: var(--bg-color);
+    margin: 8px 4px;
+    padding: 16px 16px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    border-radius: 6px;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    font-size: 17px;
+    width: 70%;
+  }
+  
+  .rumus span {
+    color: var(--main-color);
+    line-height: 3;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  }

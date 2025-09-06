@@ -4,7 +4,7 @@
 Aplikasi web sederhana untuk mengonversi suhu antara Celsius dan Fahrenheit. Aplikasi ini memungkinkan pengguna untuk memasukkan suhu dalam satu satuan dan mendapatkan hasil konversi secara otomatis ke satuan lainnya. Antarmuka yang sederhana dan responsif membuatnya mudah digunakan di berbagai perangkat.
 
 ## 🔗 Live Demo
-Lihat demo langsung aplikasi di: [https://konversisuhu-42a8bc.netlify.app/]
+Lihat demo langsung aplikasi di: https://konversisuhu-42a8bc.netlify.app/
 ## 🛠️ Technologies Used
 - **HTML**: Struktur dasar halaman web.
 - **CSS**: Styling dan desain responsif.
@@ -51,3 +51,4 @@ Copyright (c) 2024 maulidacy.
 ## 👤 Author
 - **maulidacy**  
   GitHub: [https://github.com/maulidacy](https://github.com/maulidacy)
+
